@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html style="font-size: 50px;">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>借款需求</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div>
+				<img src="img/banner.jpg" />
+			</div>
+			<div class="require-form">
+				<form action="" method="post">
+					<div class="form-group clearfix">
+						<label class="require-label">
+							借款金额
+						</label>
+						<input class="form-control require-input text-right" placeholder="万元" />
+					</div>
+					<div class="form-group clearfix">
+						<label class="require-label">
+							借款期限
+						</label>
+						<select class="form-control require-input require-select">
+							<option>1个月</option>
+							<option>2个月</option>
+						</select>
+					</div>
+					<div class="form-group clearfix">
+						<label class="require-label">
+							还款方式
+						</label>
+						<input class="form-control require-input" placeholder="按月付息，到期还本" disabled="disabled" />
+					</div>
+					<div class="form-group clearfix">
+						<label class="require-label">
+							所在地区
+						</label>
+						<div class="double-select">
+							<select class="form-control require-select-mini ">
+								<option>福建</option>
+								<option>内蒙古</option>
+
+							</select>
+							<select class="form-control span7 require-select-mini margin-left">
+								<option>厦门</option>
+								<option>测试测试</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group clearfix">
+						<label class="require-label">
+							代理车行
+						</label>
+						<input class="form-control require-input" />
+					</div>
+					<div class="form-group clearfix">
+						<label class="require-label">
+							推荐人
+						</label>
+						<input class="form-control require-input" />
+					</div>
+					<div>
+						<button type="button" class="btn require-next-btn">下一步</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/auto.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

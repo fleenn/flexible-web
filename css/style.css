@@ -1,0 +1,179 @@
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+	margin: 0;
+}
+
+ol,
+liul {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 6.4rem;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "microsoft yahei";
+	max-width: 720px;
+	background-color: #e6e6e6;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+label {
+	display: inline;
+	font-weight: normal;
+}
+
+.span9 {
+	width: 90%;
+}
+
+.pull-left {
+	float: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.middle-fonts {
+	font-size: 1.3em;
+}
+
+.zhuchedai-block {
+	width: 6.4rem;
+	height: 11.36rem;
+	position: relative;
+	background: url(../img/register.jpg) no-repeat;
+	background-size: contain;
+}
+
+.register-form {
+	width: 90%;
+	position: absolute;
+	left: 0.56rem;
+	top: 38%;
+}
+
+.form-input {
+	width: 90%;
+	font-size: 0.28rem;
+	height: 0.84rem;
+}
+
+.span6 {
+	width: 60%;
+}
+
+.verify-btn {
+	text-align: center;
+	background-color: #762626;
+	color: #FFF;
+	padding: 0;
+	width: 29%;
+	height: 0.84rem;
+	font-size: 0.28rem;
+	margin-left: 1%
+}
+
+.register-btn {
+	background-color: #DC0C5A;
+	width: 90%;
+	font-size: 0.42rem;
+	color: #FFF;
+	margin-top: 4%;
+}
+
+
+/*借款需求*/
+
+.wrapper {
+	background-color: #FFFFFF;
+}
+
+.require-form {
+	width: 5.26rem;
+	margin: 0 auto;
+}
+
+.require-form .form-group {
+	margin: 0.46rem auto;
+}
+
+.require-label {
+	float: left;
+	font-size: 0.28rem;
+	padding-top: 0.1rem;
+	color: #333333;
+}
+
+.require-input {
+	width: 4rem;
+	float: right;
+	font-size: 0.3rem;
+	height: 0.65rem;
+}
+
+.require-select {
+	color: #DC0C5A;
+}
+
+.require-next-btn {
+	background-color: #DC0C5A;
+	width: 5.26rem;
+	font-size: 0.42rem;
+	color: #FFF;
+	margin-bottom: 1.48rem;
+}
+
+.double-select {
+	width: 4rem;
+	margin: auto;
+	margin-right: 0;
+}
+
+.require-select-mini {
+	width: 48%;
+	display: inline;
+	font-size: 0.32rem;
+	height: 0.65rem;
+	color: #DC0C5A;
+}
+
+.margin-left {
+	margin-left: 0.07rem;
+}
+
+.form-radio {
+	display: inline-block;
+	width: 60%;
+	padding-top: 0.17rem;
+	margin-top: -0.1rem;
+	font-size: 0.32rem;
+}
+
+.radio-mr-lt {
+	margin-left: 10%;
+}
+.finish-block{
+	width: 6.4rem;
+	height: 11.36rem;
+	background: url(../img/success.jpg) no-repeat;
+	background-size:contain ;
+	
+}
